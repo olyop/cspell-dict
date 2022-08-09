@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"license": "MIT",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"name": "@oly_op/cspell-dict",
 	"description": "@oly_op/cspell-dict",
 	"author": {
@@ -23,7 +23,7 @@
 	},
 	"scripts": {
 		"init": "clear",
-		"prepublishOnly": "npm run init",
+		"prepublishOnly": "npm run init && npm version patch --no-git-tag-version",
 		"postpublish": "npm run push",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git add -A && git commit -m \"Update\" && git push"

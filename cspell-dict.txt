@@ -11,3 +11,4 @@ crement
 nexts
 unfollow
 remixer
+stylelint
