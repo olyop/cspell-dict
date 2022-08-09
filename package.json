@@ -1,0 +1,42 @@
+{
+	"type": "module",
+	"license": "MIT",
+	"version": "1.0.0",
+	"name": "@oly_op/cspell-dict",
+	"description": "@oly_op/cspell-dict",
+	"author": {
+		"name": "Oliver Plummer",
+		"email": "oliver.plummer@outlook.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/olyop/cspell-dict.git"
+	},
+	"files": [
+		"cspell-ext.json",
+		"cspell-dict.txt",
+		"cspell-ext-.json"
+	],
+	"volta": {
+		"npm": "8.15.0",
+		"node": "18.7.0"
+	},
+	"scripts": {
+		"init": "clear",
+		"prepublishOnly": "npm run init",
+		"postpublish": "npm run push",
+		"sync": "git checkout . && git remote update && git pull",
+		"push": "git add -A && git commit -m \"Update\" && git push"
+	},
+	"dependencies": {
+		"@cspell/dict-aws": "2.0.0",
+		"@cspell/dict-filetypes": "2.1.1",
+		"@cspell/dict-node": "3.0.1",
+		"@cspell/dict-npm": "3.1.1",
+		"@cspell/dict-software-terms": "2.2.2",
+		"@cspell/dict-typescript": "2.0.1"
+	},
+	"peerDependencies": {
+		"cspell": "*"
+	}
+}
