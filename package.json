@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "@oly_op/cspell-dict",
 	"description": "@oly_op/cspell-dict",
 	"author": {
@@ -15,7 +15,7 @@
 	"files": [
 		"cspell-ext.json",
 		"cspell-dict.txt",
-		"cspell-ext-.json"
+		"cspell-ext.json"
 	],
 	"volta": {
 		"npm": "8.15.0",
