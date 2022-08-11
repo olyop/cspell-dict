@@ -12,3 +12,5 @@ nexts
 unfollow
 remixer
 stylelint
+gstatic
+googleapis
