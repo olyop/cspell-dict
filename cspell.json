@@ -8,11 +8,16 @@
 	],
 	"import": [
 		"@cspell/dict-aws/cspell-ext.json",
+		"@cspell/dict-sql/cspell-ext.json",
 		"@cspell/dict-npm/cspell-ext.json",
+		"@cspell/dict-html/cspell-ext.json",
+		"@cspell/dict-bash/cspell-ext.json",
 		"@cspell/dict-node/cspell-ext.json",
+		"@cspell/dict-fonts/cspell-ext.json",
 		"@cspell/dict-filetypes/cspell-ext.json",
 		"@cspell/dict-typescript/cspell-ext.json",
-		"@cspell/dict-software-terms/cspell-ext.json"
+		"@cspell/dict-software-terms/cspell-ext.json",
+		"@cspell/dict-public-licenses/cspell-ext.json"
 	],
 	"dictionaries": [
 		"custom-words"
