@@ -3,9 +3,6 @@
 	"useGitignore": true,
 	"caseSensitive": false,
 	"allowCompoundWords": true,
-	"ignorePaths": [
-		"cspell-dict.txt"
-	],
 	"import": [
 		"@cspell/dict-aws/cspell-ext.json",
 		"@cspell/dict-sql/cspell-ext.json",
