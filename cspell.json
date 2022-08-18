@@ -3,7 +3,6 @@
 	"useGitignore": true,
 	"caseSensitive": false,
 	"allowCompoundWords": true,
-	"ignorePaths": ["./cspell.json"],
 	"import": [
 		"@cspell/dict-aws/cspell-ext.json",
 		"@cspell/dict-sql/cspell-ext.json",
@@ -16,25 +15,14 @@
 		"@cspell/dict-software-terms/cspell-ext.json",
 		"@cspell/dict-public-licenses/cspell-ext.json"
 	],
-	"words": [
-		"algolia",
-		"algoliasearch",
-		"crement",
-		"fastify",
-		"formik",
-		"googleapis",
-		"gstatic",
-		"hsts",
-		"oli",
-		"olyop",
-		"oliver",
-		"kenroy",
-		"plummer",
-		"pino",
-		"reduxjs",
-		"stylelint",
-		"unfollow",
-		"servelt",
-		"asdf"
-	]
+	"ignorePaths": [
+		"./cspell.json"
+	],
+	"dictionaries": [
+		"@oly_op/custom-words"
+	],
+	"dictionaryDefinitions": [{
+		"name": "@oly_op/custom-words",
+		"path": "./cspell-dict.txt"
+	}]
 }
