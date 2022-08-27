@@ -32,3 +32,5 @@ thud
 unfollow
 waldo
 xyzzy
+résumé
+resume
