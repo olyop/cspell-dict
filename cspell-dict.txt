@@ -34,3 +34,4 @@ waldo
 xyzzy
 résumé
 resume
+ttypescript

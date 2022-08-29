@@ -1,9 +1,9 @@
 {
 	"type": "module",
 	"license": "MIT",
-	"version": "1.0.20",
-	"name": "@oly_op/cspell-dict",
-	"description": "@oly_op/cspell-dict",
+	"version": "1.0.0",
+	"name": "@oly_op/cspell",
+	"description": "@oly_op/cspell",
 	"author": {
 		"name": "Oliver Plummer",
 		"email": "oliver.plummer@outlook.com"
@@ -19,10 +19,10 @@
 	],
 	"volta": {
 		"npm": "8.18.0",
-		"node": "18.7.0"
+		"node": "18.8.0"
 	},
 	"scripts": {
-		"prepublishOnly": "clear && npm version patch --no-git-tag-version",
+		"prepublishOnly": "clear",
 		"postpublish": "npm run push",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git add -A && git commit -m \"Update\" && git push"
@@ -30,17 +30,17 @@
 	"dependencies": {
 		"@cspell/dict-aws": "2.0.0",
 		"@cspell/dict-filetypes": "2.1.1",
-		"@cspell/dict-fonts": "2.0.1",
-		"@cspell/dict-html": "3.0.4",
+		"@cspell/dict-fonts": "2.1.0",
+		"@cspell/dict-html": "3.2.0",
 		"@cspell/dict-node": "3.0.1",
 		"@cspell/dict-npm": "3.1.2",
-		"@cspell/dict-public-licenses": "1.0.5",
-		"@cspell/dict-software-terms": "2.2.2",
+		"@cspell/dict-public-licenses": "1.0.6",
+		"@cspell/dict-software-terms": "2.2.5",
 		"@cspell/dict-sql": "1.0.4",
 		"@cspell/dict-typescript": "2.0.1"
 	},
 	"devDependencies": {
-		"cspell": "6.6.1"
+		"cspell": "6.8.1"
 	},
 	"peerDependencies": {
 		"cspell": "*"

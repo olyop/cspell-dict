@@ -15,9 +15,6 @@
 		"@cspell/dict-software-terms/cspell-ext.json",
 		"@cspell/dict-public-licenses/cspell-ext.json"
 	],
-	"ignorePaths": [
-		"./cspell.json"
-	],
 	"dictionaries": [
 		"@oly_op/custom-words"
 	],
