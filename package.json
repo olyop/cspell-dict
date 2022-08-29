@@ -1,9 +1,9 @@
 {
 	"type": "module",
 	"license": "MIT",
-	"version": "1.0.1",
-	"name": "@oly_op/cspell",
-	"description": "@oly_op/cspell",
+	"version": "1.0.100",
+	"name": "@oly_op/cspell-dict",
+	"description": "@oly_op/cspell-dict",
 	"author": {
 		"name": "Oliver Plummer",
 		"email": "oliver.plummer@outlook.com"
