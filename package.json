@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"license": "MIT",
-	"version": "1.0.100",
+	"version": "1.0.101",
 	"name": "@oly_op/cspell-dict",
 	"description": "@oly_op/cspell-dict",
 	"author": {
@@ -29,17 +29,19 @@
 	},
 	"dependencies": {
 		"@cspell/dict-aws": "2.0.0",
+		"@cspell/dict-companies": "2.0.13",
 		"@cspell/dict-filetypes": "2.1.1",
 		"@cspell/dict-fonts": "2.1.0",
-		"@cspell/dict-html": "3.2.0",
+		"@cspell/dict-java": "3.0.7",
 		"@cspell/dict-node": "3.0.1",
 		"@cspell/dict-npm": "3.1.2",
 		"@cspell/dict-public-licenses": "1.0.6",
-		"@cspell/dict-software-terms": "2.2.5",
 		"@cspell/dict-sql": "1.0.4",
 		"@cspell/dict-typescript": "2.0.1"
 	},
 	"devDependencies": {
+		"@cspell/dict-html": "3.3.1",
+		"@cspell/dict-software-terms": "2.2.6",
 		"cspell": "6.8.1"
 	},
 	"peerDependencies": {
