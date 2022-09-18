@@ -1,3 +1,13 @@
+# Names
+fred
+oliver
+kenroy
+plummer
+oli
+olyop
+arielle
+waldo
+
 algolia
 algoliasearch
 asdf
@@ -8,20 +18,14 @@ crement
 fastify
 foo
 formik
-fred
 garply
 googleapis
 grault
 gstatic
 hsts
-kenroy
 mkcert
-oli
-oliver
-olyop
 pino
 plugh
-plummer
 quuz
 qux
 qwerty
@@ -30,8 +34,6 @@ servelt
 stylelint
 thud
 unfollow
-waldo
 xyzzy
 résumé
 resume
-ttypescript
