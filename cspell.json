@@ -29,8 +29,7 @@
 		"json5",
 		"sql",
 		"graphql",
-		"env",
-		"gitignore",
-		"template"
+		"dotenv",
+		"ignore"
 	]
 }
