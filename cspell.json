@@ -30,6 +30,7 @@
 		"sql",
 		"graphql",
 		"dotenv",
-		"ignore"
+		"ignore",
+		"properties"
 	]
 }
