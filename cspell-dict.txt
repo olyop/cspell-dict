@@ -1,4 +1,3 @@
-# Names
 fred
 oliver
 kenroy
@@ -8,7 +7,6 @@ olyop
 arielle
 perkett
 waldo
-
 algolia
 algoliasearch
 asdf
@@ -43,3 +41,8 @@ servlet
 npmrc
 jdbc
 nsee
+servlet
+nsee
+jdbc
+npmrc
+cimg
