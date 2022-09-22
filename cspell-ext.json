@@ -2,8 +2,5 @@
 	"id": "olyop",
 	"name": "olyop",
 	"readonly": true,
-	"import": ["./cspell.json"],
-	"enableFiletypes": [
-		"gradle"
-	]
+	"import": ["./cspell.json"]
 }

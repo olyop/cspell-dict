@@ -23,5 +23,14 @@
 	"dictionaryDefinitions": [{
 		"name": "@oly_op/custom-words",
 		"path": "./cspell-dict.txt"
-	}]
+	}],
+	"enableFiletypes": [
+		"gradle",
+		"json5",
+		"sql",
+		"graphql",
+		"env",
+		"gitignore",
+		"template"
+	]
 }
