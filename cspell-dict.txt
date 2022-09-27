@@ -46,3 +46,4 @@ nsee
 jdbc
 npmrc
 cimg
+readdirp
