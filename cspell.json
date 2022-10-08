@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
 	"language": "en",
 	"useGitignore": true,
 	"caseSensitive": false,
@@ -29,8 +30,9 @@
 	"dictionaryDefinitions": [
 		{
 			"name": "@oly_op/custom-words",
-			"path": "./cspell-dict.txt"
+			"path": "./custom-words.txt"
 		}
 	],
-	"enableFiletypes": ["gradle", "json5", "sql", "graphql", "dotenv", "ignore", "properties"]
+	"ignorePaths": ["./custom-words.txt"],
+	"enableFiletypes": ["gradle", "json5", "sql", "graphql", "dotenv", "xml", "ignore", "properties"]
 }
