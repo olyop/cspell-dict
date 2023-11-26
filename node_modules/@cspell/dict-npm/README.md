@@ -1,8 +1,15 @@
 # CSpell NPM Dictionary
 
-NPM dictionary for CSpell.
+This dictionary contains a list of popular JavaScript packages found on [npmjs.com](https://www.npmjs.com/).
 
 This is a pre-built dictionary for use with CSpell.
+
+## Requirements
+
+| Tool                                                                                                                                 | Version |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| [cspell](https://github.com/streetsidesoftware/cspell)                                                                               | `>= 6`  |
+| [Code Spell Checker - Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `>= 2`  |
 
 ## Installation
 
@@ -40,3 +47,7 @@ See: [How to Create a New Dictionary](https://github.com/streetsidesoftware/cspe
 MIT
 
 > Some packages may have other licenses included.
+
+<!---
+cspell:ignore npmjs
+--->

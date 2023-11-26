@@ -1,10 +1,17 @@
-# Cspell Ada Language Dictionary
+# CSpell Ada Language Dictionary
 
 Ada Language dictionary for cspell.
 
 This is a pre-built dictionary for use with cspell.
 
 Supports Ada keywords.
+
+## Requirements
+
+| Tool                                                                                                                                 | Version |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| [cspell](https://github.com/streetsidesoftware/cspell)                                                                               | `>= 6`  |
+| [Code Spell Checker - Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `>= 2`  |
 
 ## Installation
 

@@ -1,4 +1,4 @@
-# Cspell Go Language Dictionary
+# CSpell Go Language Dictionary
 
 Go Language dictionary for cspell.
 
@@ -6,7 +6,14 @@ This is a pre-built dictionary for use with cspell.
 
 Supports keywords and built-in library names up to Go 1.12.
 
-This dictionary is included by default in cSpell.
+This dictionary is included by default in CSpell.
+
+## Requirements
+
+| Tool                                                                                                                                 | Version |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| [cspell](https://github.com/streetsidesoftware/cspell)                                                                               | `>= 6`  |
+| [Code Spell Checker - Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `>= 2`  |
 
 ## Installation
 

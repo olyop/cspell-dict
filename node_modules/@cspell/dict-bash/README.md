@@ -1,8 +1,15 @@
-# Cspell bash Dictionary
+# CSpell bash Dictionary
 
 Bash dictionary for cspell.
 
 This is a pre-built dictionary for use with cspell.
+
+## Requirements
+
+| Tool                                                                                                                                 | Version |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| [cspell](https://github.com/streetsidesoftware/cspell)                                                                               | `>= 6`  |
+| [Code Spell Checker - Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `>= 2`  |
 
 ## Installation
 
@@ -29,14 +36,6 @@ The `cspell-ext.json` file in this package should be added to the import section
     "import": ["@cspell/dict-bash/cspell-ext.json"],
     // …
 }
-```
-
-## Building
-
-Building is only necessary if you want to modify the contents of the dictionary. Note: Building will take a few minutes for large files.
-
-```sh
-npm run build
 ```
 
 ## License

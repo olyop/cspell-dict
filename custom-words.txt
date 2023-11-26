@@ -47,3 +47,4 @@ jdbc
 npmrc
 cimg
 readdirp
+Intelli
