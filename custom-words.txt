@@ -48,3 +48,6 @@ npmrc
 cimg
 readdirp
 Intelli
+nositelinkssearchbox
+nopagereadaloud
+remoteip
