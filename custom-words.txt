@@ -4,8 +4,6 @@ kenroy
 plummer
 oli
 olyop
-arielle
-perkett
 waldo
 algolia
 algoliasearch
@@ -33,7 +31,6 @@ servelt
 stylelint
 thud
 unfollow
-xyzzy
 résumé
 resume
 webp
@@ -51,3 +48,4 @@ Intelli
 nositelinkssearchbox
 nopagereadaloud
 remoteip
+vite
