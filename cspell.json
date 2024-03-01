@@ -5,6 +5,7 @@
 	"caseSensitive": false,
 	"allowCompoundWords": true,
 	"import": [
+		"@cspell/dict-css/cspell-ext.json",
 		"@cspell/dict-ada/cspell-ext.json",
 		"@cspell/dict-aws/cspell-ext.json",
 		"@cspell/dict-sql/cspell-ext.json",
