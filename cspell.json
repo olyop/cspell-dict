@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
 	"language": "en",
 	"useGitignore": true,
-	"caseSensitive": false,
+	"caseSensitive": true,
 	"allowCompoundWords": true,
 	"import": [
 		"@cspell/dict-css/cspell-ext.json",
@@ -35,5 +35,5 @@
 		}
 	],
 	"ignorePaths": ["./custom-words.txt"],
-	"enableFiletypes": ["gradle", "json5", "sql", "graphql", "dotenv", "xml", "ignore", "properties"]
+	"enableFiletypes": ["gradle", "json5", "sql", "graphql", "dotenv", "xml", "java", "ignore", "properties"]
 }
